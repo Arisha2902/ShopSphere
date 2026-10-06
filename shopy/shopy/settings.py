@@ -27,7 +27,12 @@ SECRET_KEY = 'django-insecure-*s1e++*%wkny&p6ijn1%1#2r7(o(u$dr$9@chsxe2t1r0d51pz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "shopsphere-l2s6.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
